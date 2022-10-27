@@ -1,0 +1,57 @@
+/*Reset Default Styles
+*/
+html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, li,
+table, caption, tbody, tfoot, thead, tr, th, td, footer, header {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body {
+	line-height: 1;
+}
+
+/* My CSS Stylesheet*/
+
+h1 {
+    text-align: center;
+}
+caption {
+    display: table-caption;
+    text-align: center;
+    caption-side: bottom;
+}
+table {
+    display: table;
+    margin-left:auto; 
+    margin-right:auto;
+    border-collapse: collapse;
+    border: 1.5px solid rgb(50, 50, 50);
+    letter-spacing: 1.25px;
+    font-family: Helvetica;
+    font-size: .8rem;
+
+}
+th{
+    background-color: rgb(123, 167, 203);
+    color: white;
+    padding: 10px;
+}
+th, td {
+    border-collapse: collapse;
+    border: 1px solid rgb(80, 80, 80);
+    font-family: Helvetica;
+    font-size: .8rem;
+}
+tr:nth-child(even) {
+    background-color: rgb(225, 225, 225);
+}
+footer{
+    text-align: center;
+}
