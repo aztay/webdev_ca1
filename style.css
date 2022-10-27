@@ -13,45 +13,89 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+img{
+    display: block;
+    width: 15px;
+    height: 15px;
+}
 body {
 	line-height: 1;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
 
 /* My CSS Stylesheet*/
-
-h1 {
-    text-align: center;
-}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #a9d7fb;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
 caption {
-    display: table-caption;
     text-align: center;
     caption-side: bottom;
 }
+body{
+    background-color: rgb(243, 248, 255);
+    font-family: sans-serif;
+}
 table {
-    display: table;
     margin-left:auto; 
     margin-right:auto;
     border-collapse: collapse;
     border: 1.5px solid rgb(50, 50, 50);
     letter-spacing: 1.25px;
-    font-family: Helvetica;
-    font-size: .8rem;
-
+}
+h1 {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(49, 49, 49);
 }
 th{
-    background-color: rgb(123, 167, 203);
+    background-color: rgb(119, 142, 162);
     color: white;
-    padding: 10px;
+    font-size: .9rem;
+    font-weight: bold;
+}
+td{
+    text-align: center;
+    font-size: .8rem;
 }
 th, td {
     border-collapse: collapse;
-    border: 1px solid rgb(80, 80, 80);
-    font-family: Helvetica;
-    font-size: .8rem;
+    border: 1px solid rgb(0, 0, 0);
+    height:30px;
+    width:120px;
+    vertical-align: middle;
 }
 tr:nth-child(even) {
-    background-color: rgb(225, 225, 225);
+    background-color: rgb(188, 208, 228);
+}
+tr:hover{
+    background-color: rgb(176, 226, 245);
 }
 footer{
+    padding: 3px;
+    background-color: rgb(136, 162, 184);
     text-align: center;
+    color: azure;
+    font-family: sans-serif;
 }
