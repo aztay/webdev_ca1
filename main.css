@@ -1,0 +1,31 @@
+/*Reset Default Styles
+*/
+html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, li,
+table, caption, tbody, tfoot, thead, tr, th, td, footer, header {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body {
+	line-height: 1;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/*My CSS Stylesheet*/
+body p {
+    width: 15em;
+    border: 1px solid #333;
+    box-shadow: 8px 8px 5px #444;
+    padding: 8px 12px;
+    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+}
